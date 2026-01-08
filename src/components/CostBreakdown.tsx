@@ -32,7 +32,7 @@ const CostBreakdown = ({ isCOP }: CostBreakdownProps) => {
           <TrendingDown className="w-5 h-5 text-primary" />
         </div>
         <div>
-           <div> <h2 className="text-lg font-semibold text-foreground">Tipos de Interacciones</h2> <br />
+           <div> <h2 className="text-lg font-semibold text-foreground">Tipos de Interacciones - AI Agent</h2> <br />
           </div>
          
 
