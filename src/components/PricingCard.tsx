@@ -112,7 +112,7 @@ const PricingCard = ({
         </li>
         <li className="flex items-center gap-2 text-sm text-foreground">
           <Check className="w-4 h-4 text-primary flex-shrink-0" />
-          <span>{enterprise} empresas adicionales</span>
+          <span>{enterprise} empresas </span>
         </li>
         <li className="flex items-center gap-2 text-sm text-foreground">
           <Check className="w-4 h-4 text-primary flex-shrink-0" />
