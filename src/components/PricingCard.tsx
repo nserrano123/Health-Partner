@@ -7,6 +7,7 @@ interface PricingCardProps {
   price: number;
   isCOP: boolean;
   interactions: number;
+  enterprise: number;
   users: number;
   docs: number;
   costPerInteraction: number;
@@ -20,6 +21,7 @@ const PricingCard = ({
   isCOP,
   interactions,
   users,
+  enterprise,
   docs,
   costPerInteraction,
   isElite = false,
@@ -107,6 +109,10 @@ const PricingCard = ({
         <li className="flex items-center gap-2 text-sm text-foreground">
           <Check className="w-4 h-4 text-primary flex-shrink-0" />
           <span>{users} usuarios activos</span>
+        </li>
+        <li className="flex items-center gap-2 text-sm text-foreground">
+          <Check className="w-4 h-4 text-primary flex-shrink-0" />
+          <span>{enterprise} empresas adicionales</span>
         </li>
         <li className="flex items-center gap-2 text-sm text-foreground">
           <Check className="w-4 h-4 text-primary flex-shrink-0" />
