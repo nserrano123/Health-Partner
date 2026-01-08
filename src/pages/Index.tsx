@@ -22,7 +22,7 @@ const Index = () => {
       price: 735,
       interactions: 5000,
       users: 15,
-      docs: 1000,
+      docs: 2000,
       costPerInteraction: 0.05,
     },
     {
@@ -30,7 +30,7 @@ const Index = () => {
       price: 795,
       interactions: 8000,
       users: 15,
-      docs: 1000,
+      docs: 3000,
       costPerInteraction: 0.04,
       isElite: true,
     },
@@ -101,12 +101,12 @@ const Index = () => {
         </section> */}
 
         {/* Cost Breakdown */}
-        {/* <section 
+        <section 
           className="animate-fade-in" 
           style={{ animationDelay: "0.5s" }}
         >
           <CostBreakdown isCOP={isCOP} />
-        </section> */}
+        </section>
 
         {/* Technical Details */}
         <section 

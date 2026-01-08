@@ -32,12 +32,31 @@ const CostBreakdown = ({ isCOP }: CostBreakdownProps) => {
           <TrendingDown className="w-5 h-5 text-primary" />
         </div>
         <div>
-          <h2 className="text-lg font-semibold text-foreground">Costo por Interacción</h2>
-          <p className="text-sm text-muted-foreground">Comparativa de costos unitarios</p>
+           <div> <h2 className="text-lg font-semibold text-foreground">Tipos de Interacciones</h2> <br />
+          </div>
+         
+
+          <ul className="text-sm text-muted-foreground list-disc pl-5 space-y-2">
+            <li>
+              <strong>Atención Inbound:</strong> Respuestas a dudas y agendamiento iniciado por el paciente.
+            </li>
+            <li>
+              <strong>Agendamiento Outbound Operativo:</strong> Programación y confirmación de citas.
+            </li>
+            <li>
+              <strong>Esquema de Recordatorios de Cita:</strong> Hasta tres (3) avisos previos a la fecha reservada.
+            </li>
+            <li>
+              <strong>Gestión de Cumpleaños:</strong> Saludo automatizado con contenido multimedia.
+            </li>
+            <li>
+              <strong>Recordatorios de Procedimiento (Recurrencia):</strong> Avisos proactivos según la periodicidad médica de cada tratamiento para fomentar la continuidad del paciente.
+            </li>
+          </ul>
         </div>
       </div>
 
-      <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
+      {/* <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
         {plans.map((plan, index) => (
           <div key={plan.name} className="flex items-center gap-2">
             <Badge className={`${plan.color} px-3 py-1.5 text-sm font-medium`}>
@@ -48,7 +67,7 @@ const CostBreakdown = ({ isCOP }: CostBreakdownProps) => {
             )}
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* <div className="text-center p-4 rounded-xl bg-primary/5 border border-primary/20">
         <p className="text-sm text-muted-foreground">
