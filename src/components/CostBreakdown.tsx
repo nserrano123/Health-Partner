@@ -10,9 +10,9 @@ const CostBreakdown = ({ isCOP }: CostBreakdownProps) => {
   const EXCHANGE_RATE = 4000;
 
   const plans = [
-    { name: "Essential 3K", cost: 0.06, color: "bg-secondary text-secondary-foreground" },
+    { name: "Growth 3K", cost: 0.06, color: "bg-secondary text-secondary-foreground" },
     { name: "Growth 5K", cost: 0.05, color: "bg-secondary text-secondary-foreground" },
-    { name: "Élite 8K", cost: 0.04, color: "bg-primary text-primary-foreground" },
+    { name: "Growth 8K", cost: 0.04, color: "bg-primary text-primary-foreground" },
   ];
 
   const formatCost = (value: number) => {
@@ -50,12 +50,12 @@ const CostBreakdown = ({ isCOP }: CostBreakdownProps) => {
         ))}
       </div>
 
-      <div className="text-center p-4 rounded-xl bg-primary/5 border border-primary/20">
+      {/* <div className="text-center p-4 rounded-xl bg-primary/5 border border-primary/20">
         <p className="text-sm text-muted-foreground">
-          Con el <span className="font-semibold text-primary">Plan Élite</span> ahorras hasta{" "}
+          Con el <span className="font-semibold text-primary">Plan Growth</span> ahorras hasta{" "}
           <span className="font-bold text-primary">{savings}%</span> por interacción vs Essential
         </p>
-      </div>
+      </div> */}
     </Card>
   );
 };

@@ -5,7 +5,7 @@ const TechnicalDetails = () => {
   const features = [
     {
       icon: Server,
-      title: "Infraestructura n8n",
+      title: "Automatización Fail Fast",
       description: "Flujos de automatización dedicados",
     },
     {
@@ -32,7 +32,7 @@ const TechnicalDetails = () => {
           Reserva de Capacidad Garantizada
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Los planes aseguran disponibilidad 24/7 de infraestructura n8n, Gemini Flash IA y 
+          Los planes aseguran disponibilidad 24/7 de infraestructura Fail Fast, Gemini Flash IA y 
           conexión Simba/DIAN para tu operación sin interrupciones.
         </p>
       </div>

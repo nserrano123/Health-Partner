@@ -10,7 +10,7 @@ const Index = () => {
 
   const plans = [
     {
-      name: "Essential 3K",
+      name: "Growth  3K",
       price: 650,
       interactions: 3000,
       users: 15,
@@ -26,7 +26,7 @@ const Index = () => {
       costPerInteraction: 0.05,
     },
     {
-      name: "Élite 8K",
+      name: "Growth 8K",
       price: 795,
       interactions: 8000,
       users: 15,
@@ -47,8 +47,13 @@ const Index = () => {
                 Evolución Digital{" "}
                 <span className="text-gradient">ESVITAL</span>
               </h1>
+              <h2 className="text-2xl font-bold text-foreground">
+                Plan Growth{" "}
+                {/* <span className="text-gradient">ESVITAL</span> */}
+              </h2>
+              
               <p className="text-sm text-muted-foreground">
-                Pricing & ROI Calculator
+                Pricing
               </p>
             </div>
             <CurrencyToggle isCOP={isCOP} onToggle={setIsCOP} />
@@ -64,8 +69,7 @@ const Index = () => {
             <span className="text-gradient">Inteligencia Artificial</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Elige el plan que mejor se adapte a tu flujo de pacientes y maximiza 
-            el retorno de tu inversión en automatización.
+            Elige el plan que mejor se adapte a tu flujo de pacientes.
           </p>
         </section>
 
@@ -88,21 +92,21 @@ const Index = () => {
           ))}
         </section>
 
-        {/* ROI Calculator */}
+        {/* ROI Calculator
         <section 
           className="animate-fade-in" 
           style={{ animationDelay: "0.4s" }}
         >
           <ROICalculator isCOP={isCOP} />
-        </section>
+        </section> */}
 
         {/* Cost Breakdown */}
-        <section 
+        {/* <section 
           className="animate-fade-in" 
           style={{ animationDelay: "0.5s" }}
         >
           <CostBreakdown isCOP={isCOP} />
-        </section>
+        </section> */}
 
         {/* Technical Details */}
         <section 
