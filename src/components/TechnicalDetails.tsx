@@ -29,7 +29,7 @@ const TechnicalDetails = () => {
     <Card className="p-6 md:p-8 bg-card border-border shadow-card">
       <div className="text-center mb-8">
         <h2 className="text-xl font-semibold text-foreground mb-2">
-          Reserva de Capacidad Garantizada
+          {/* Reserva de Capacidad Garantizada */}
         </h2>
         {/* <p className="text-muted-foreground max-w-2xl mx-auto">
           Los planes Growth ERP aseguran disponibilidad 5X8 de infraestructura Fail Fast, Gemini Flash IA y 
