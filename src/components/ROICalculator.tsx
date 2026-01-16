@@ -150,7 +150,7 @@ const ROICalculator = ({ isCOP }: ROICalculatorProps) => {
             <span className="font-semibold text-primary">{recommendedPlan.name}</span>
             <span className="text-muted-foreground"> con capacidad para </span>
             <span className="font-semibold">{recommendedPlan.interactions.toLocaleString()}</span>
-            <span className="text-muted-foreground"> interacciones mensuales.</span>
+            <span className="text-muted-foreground"> interacciones IA mensuales.</span>
           </p>
         </div>
       </div>

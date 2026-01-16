@@ -67,10 +67,10 @@ const PricingCard = ({
     >
       {isElite && (
         <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-          <Badge className="bg-primary text-primary-foreground px-3 py-1 text-xs font-semibold shadow-lg">
+          {/* <Badge className="bg-primary text-primary-foreground px-3 py-1 text-xs font-semibold shadow-lg">
             <Sparkles className="w-3 h-3 mr-1" />
             Best Value
-          </Badge>
+          </Badge> */}
         </div>
       )}
       
@@ -85,7 +85,7 @@ const PricingCard = ({
       <div className="mb-6">
         <h3 className="text-lg font-semibold text-foreground mb-1">{name}</h3>
         <p className="text-sm text-muted-foreground">
-          {interactions.toLocaleString()} interacciones/mes
+          {interactions.toLocaleString()} interacciones IA/mes
         </p>
       </div>
 
@@ -97,7 +97,7 @@ const PricingCard = ({
           <span className="text-muted-foreground text-sm">/mes</span>
         </div>
         <p className="text-xs text-muted-foreground mt-2">
-          Costo por interacción: <span className="font-medium text-foreground">{formatInteractionCost(displayCostPerInteraction)}</span>
+          Valor por interacción IA adicional: <span className="font-medium text-foreground">{formatInteractionCost(displayCostPerInteraction)}</span>
         </p>
       </div>
 
@@ -114,10 +114,10 @@ const PricingCard = ({
           <Check className="w-4 h-4 text-primary flex-shrink-0" />
           <span>{enterprise} empresas </span>
         </li>
-        <li className="flex items-center gap-2 text-sm text-foreground">
+        {/* <li className="flex items-center gap-2 text-sm text-foreground">
           <Check className="w-4 h-4 text-primary flex-shrink-0" />
           <span>{docs.toLocaleString()} docs DIAN incluidos</span>
-        </li>
+        </li> */}
         <li className="flex items-center gap-2 text-sm text-foreground">
           <Check className="w-4 h-4 text-primary flex-shrink-0" />
           <span>Soporte 5X8</span>

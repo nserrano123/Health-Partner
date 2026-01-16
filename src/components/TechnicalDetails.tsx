@@ -13,11 +13,11 @@ const TechnicalDetails = () => {
       title: "Gemini Flash IA",
       description: "Modelo de lenguaje de última generación",
     },
-    {
-      icon: Shield,
-      title: "Conexión Simba/DIAN",
-      description: "Integración certificada para facturación",
-    },
+    // {
+    //   icon: Shield,
+    //   title: "Conexión Simba/DIAN",
+    //   description: "Integración certificada para facturación",
+    // },
     {
       icon: Clock,
       title: "Disponibilidad 24/7",
@@ -31,10 +31,10 @@ const TechnicalDetails = () => {
         <h2 className="text-xl font-semibold text-foreground mb-2">
           Reserva de Capacidad Garantizada
         </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto">
-          Los planes aseguran disponibilidad 5X8 de infraestructura Fail Fast, Gemini Flash IA y 
+        {/* <p className="text-muted-foreground max-w-2xl mx-auto">
+          Los planes Growth ERP aseguran disponibilidad 5X8 de infraestructura Fail Fast, Gemini Flash IA y 
           conexión Simba/DIAN para tu operación sin interrupciones.
-        </p>
+        </p> */}
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
