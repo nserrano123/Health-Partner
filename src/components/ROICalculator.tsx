@@ -8,9 +8,9 @@ interface ROICalculatorProps {
 }
 
 const PLANS = [
-  { name: "Growth 3K", interactions: 3000, price: 650 },
-  { name: "Growth 5K", interactions: 5000, price: 735 },
-  { name: "Growth 8K", interactions: 8000, price: 795 },
+  { name: "Starter 500", interactions: 3000, price: 650 },
+  { name: "Starter 1K", interactions: 5000, price: 735 },
+  { name: "Starter 2K", interactions: 8000, price: 795 },
 ];
 
 const ROICalculator = ({ isCOP }: ROICalculatorProps) => {

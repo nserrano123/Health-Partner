@@ -120,7 +120,7 @@ const PricingCard = ({
         </li>
         <li className="flex items-center gap-2 text-sm text-foreground">
           <Check className="w-4 h-4 text-primary flex-shrink-0" />
-          <span>Soporte prioritario 24/7</span>
+          <span>Soporte 5X8</span>
         </li>
       </ul>
 

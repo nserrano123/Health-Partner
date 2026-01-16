@@ -10,31 +10,31 @@ const Index = () => {
 
   const plans = [
     {
-      name: "Growth  3K",
-      price: 650,
-      interactions: 3000,
-      users: 15,
-      enterprise: 4,
-      docs: 1000,
-      costPerInteraction: 0.06,
+      name: "Starter CRM  500",
+      price: 177,
+      interactions: 500,
+      users: 3,
+      enterprise: 1,
+      docs: 0,
+      costPerInteraction: 0.08,
     },
     {
-      name: "Growth 5K",
-      price: 735,
-      interactions: 5000,
-      users: 15,
-      enterprise: 4,
-      docs: 2000,
-      costPerInteraction: 0.05,
+      name: "Starter CRM 1K",
+      price: 255,
+      interactions: 1000,
+      users: 5,
+      enterprise: 1,
+      docs: 0,
+      costPerInteraction: 0.08,
     },
     {
-      name: "Growth 8K",
-      price: 795,
-      interactions: 8000,
-      users: 15,
-      enterprise: 4,
-      docs: 3000,
-      costPerInteraction: 0.04,
+      name: "Starter CRM 2K",
+      price: 315,
+      interactions: 2000,
+      users: 5,
+      enterprise: 1,
+      docs: 0,
+      costPerInteraction: 0.08,
       isElite: true,
     },
   ];
@@ -48,11 +48,11 @@ const Index = () => {
             <div>
               <h1 className="text-2xl font-bold text-foreground">
                 Evolución Digital{" "}
-                <span className="text-gradient">ESVITAL</span>
+                <span className="text-gradient">MED EXPERTS</span>
               </h1>
               <h2 className="text-2xl font-bold text-foreground">
-                Plan Growth{" "}
-                {/* <span className="text-gradient">ESVITAL</span> */}
+                Plan Starter{" "}
+                {/* <span className="text-gradient">MED EXPERTS</span> */}
               </h2>
               
               <p className="text-sm text-muted-foreground">

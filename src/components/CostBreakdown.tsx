@@ -10,9 +10,9 @@ const CostBreakdown = ({ isCOP }: CostBreakdownProps) => {
   const EXCHANGE_RATE = 4000;
 
   const plans = [
-    { name: "Growth 3K", cost: 0.06, color: "bg-secondary text-secondary-foreground" },
-    { name: "Growth 5K", cost: 0.05, color: "bg-secondary text-secondary-foreground" },
-    { name: "Growth 8K", cost: 0.04, color: "bg-primary text-primary-foreground" },
+    { name: "Starter 500", cost: 0.06, color: "bg-secondary text-secondary-foreground" },
+    { name: "Starter 1K", cost: 0.05, color: "bg-secondary text-secondary-foreground" },
+    { name: "Starter 2K", cost: 0.04, color: "bg-primary text-primary-foreground" },
   ];
 
   const formatCost = (value: number) => {
